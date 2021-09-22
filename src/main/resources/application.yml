@@ -1,0 +1,5 @@
+# test 配置
+ip2region:
+  resource-path: /file/ip2region/data.db
+#  local-path: /file/ip2region/data.db
+#  url-path: https://cdn.jsdelivr.net/gh/lionsoul2014/ip2region/data/ip2region.db
