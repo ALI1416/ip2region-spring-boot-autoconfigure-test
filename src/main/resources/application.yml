@@ -1,5 +1,27 @@
-# test 配置
+# resource 使用资源路径
 ip2region:
   resource-path: /file/ip2region/data.db
+
+# local 使用本地路径
+#ip2region:
+#  local-path: /file/ip2region/data.db
+
+# url 使用url路径
+#ip2region:
+#  url-path: https://cdn.jsdelivr.net/gh/lionsoul2014/ip2region/data/ip2region.db
+
+# priority 优先级
+#ip2region:
+#  resource-path: /file/ip2region/data.db
 #  local-path: /file/ip2region/data.db
 #  url-path: https://cdn.jsdelivr.net/gh/lionsoul2014/ip2region/data/ip2region.db
+
+# none 没有配置
+
+# error 配置错误
+#ip2region:
+#  resource-path: /file/ip2region/data
+
+# init 配置属性后又手动初始化
+#ip2region:
+#  resource-path: /file/ip2region/data.db
